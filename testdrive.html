@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test Slot</title>
+    <style>
+        h2{
+            font-size: 3rem;
+        }
+        body{
+            text-align: center;
+            background-image: url(test.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+        }
+        #gender{
+            padding: 0.3rem;
+            margin-top: 1rem;
+            opacity: 0.8;
+        }
+        #city{
+            padding: .3rem;
+            margin-top: 1rem;
+            margin-left: -19rem;
+            opacity: 0.7;
+        }
+        #fname{
+            padding: 0.3rem 
+        }
+        #lname{
+            padding: 0.3rem 
+        }
+        #email{
+            margin-top: 1rem;
+            padding: .3rem;
+            margin-left: -4rem;
+        }
+        #mobile{
+            padding: .3rem;
+        }
+        #dl{
+            margin-top: 1rem;
+            padding: .3rem;
+            margin-left:-.6rem;
+            padding-right: 2rem;
+        }
+        #car{
+            padding: .3rem;
+            padding-right: 2rem;
+        }
+        #terms{
+            margin-left: -5rem;
+            
+        }
+        #sub{
+            padding: .2rem .4rem;
+            font-style: italic;
+            font-weight: 800;
+        }
+    </style>
+    <script>
+        // function noti(){
+        //     window.alert("We Have Sent The Details and The Time of your test drive!!!");
+        // }
+        function FName(){
+
+            if(document.FName.value==""){
+                windows.alert("Enter First Name");
+            }
+        }
+    </script>
+</head>
+<body>
+   <h2> Book Test Drive Slot </h2>
+<Form>
+   <select name="gender" id="gender">
+    <option value="Mr.">Mr.</option>
+    <option value="Mr.">Mrs.</option>
+    <option value="Mr.">Ms.</option>
+    <option value="Mr.">Dr.</option>
+   </select>
+   <input type="text" name="FName" placeholder="First Name" id="fname">
+   <input type="text" name="LName" placeholder="Last Name" id="lname">
+   <br>
+   <input type="text" name="email" placeholder="Email" id="email">
+   <input type="text" name="mobile" placeholder="Mobile No" id="mobile">
+   <br>
+   <input type="text" name="dl" placeholder="Driving Licence Number" id="dl">
+   <input type="text" name="car" placeholder="Enter Car Model" id="car">
+   <br>
+   <select name="city" id="city">
+    <option>Surat</option>
+    <option>Ahemedabad</option>
+    <option>Vadodara</option>
+    <option>Valsad</option>
+    <option>Vapi</option>
+    <option>Navsari</option>
+    <option>GandhiNagar</option>
+    <option>Mahisagar</option>
+    <option>Bhavanagar</option>
+    <option>Jamnagar</option>
+   </select>
+   <br><br><br>
+   <input type="checkbox" name="terms" id="terms">I have reed and accept the Terms and Conditions
+   <br><br><br> 
+  <input type="submit" id="sub" onclick="FName()">  
+</Form>
+
+</body>
+</html>

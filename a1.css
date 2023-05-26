@@ -1,0 +1,280 @@
+*{
+    /* background-color: #A0AECD; */
+    margin: 0rem;
+    padding: 0px
+}
+body{
+    background-color:#F1F6F9;
+}#header{
+    
+    /* position:relative; */
+    position: fixed;
+    left: 37rem;
+    text-align: center;
+    /* display:flex; */
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+    color: #212A3E;
+    font-size: 3rem;
+    background-color: #9BA4B5;
+}
+#header h4{
+    /* background-position: 10rem; */
+    background-color: #9BA4B5;
+    background-size: 200rem;
+}
+.main
+{
+    background-color: #F1F6F9;
+}
+#a1{
+    font-style: italic;
+    padding-left: 0.4rem;
+    font-size:1rem;
+}
+#a2{
+    font-style: italic;
+    padding-left: 2.5rem;
+    font-size:1rem;
+}
+#a3{
+    font-style: italic;
+    padding-left: 2.5rem;
+    font-size:1rem;
+}
+#a4{
+    font-style: italic;
+    padding-left: 2.5rem;
+    font-size:1rem;
+}
+#a5{
+    font-style: italic;
+    padding-left: 2.5rem;
+    font-size:1rem;
+}
+#a6{
+    font-style: italic;
+    padding-left: 2.5rem;
+    font-size:1rem;
+}
+#a7{
+    font-style: italic;
+    padding-left: 2.5rem;
+    font-size:1rem;
+    
+}
+
+.nav{
+    position: absolute;
+    display: inline;
+    /* background-size: 3rem; */
+    background-color: rgb(154, 240, 197);
+    font-size: 2.075rem;
+    /* font-weight: 150; */
+    
+}
+#blogo{
+    /* padding-left: 13rem; */
+    margin-top: 7rem;
+    margin-left: 26rem;
+    margin-right: 6.5rem;
+    border-radius: 11rem;
+}
+#bulogo{
+    margin-top: 7rem;
+
+    margin-left: 25rem;
+    margin-right: 4.5rem;
+}
+#lrlogo{
+    margin-top: 7rem;
+
+    margin-left: 24rem;
+    margin-right: 5.5rem;
+}
+#tologo{
+    margin-top: 7rem;
+
+    margin-left: 8rem;
+    margin-right: 6.5rem;
+}
+#merlogo{
+    
+    margin-top: 7rem;
+
+    margin-left: 9rem;
+    margin-right: 6.5rem;
+}
+#nissanlogo{
+    margin-top: 7rem;
+
+    margin-left: 11rem;
+    margin-right: 6.5rem;
+}
+#footer{
+    padding-top: 5rem;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.7rem;
+    font-weight: 300;
+    text-align: center;
+    text-shadow: 1cm;
+ 
+}
+
+.infocontainer img{
+    /* margin-left: 500px; */
+    height: 9rem;
+    width: 10rem;
+    
+}
+
+.sidebar{
+    position:fixed;
+    background-color:#212A3E;
+    /* width: 400px; */
+    
+    width: 9rem;
+    height: 51.28rem;
+    transition:transform 0.1s ease-in;
+    margin-top: -3rem;
+}
+.sidebar nav{
+    position: fixed;
+    margin-top: 5rem;
+    scroll-behavior: inherit;
+    /* padding: .5rem */
+}
+.sidebar nav li{
+    /* position: inherit; */
+    list-style-type: none ;
+    font-size: 1rem;
+    margin: 2rem 2rem;
+}
+
+.sidebar nav li a{
+    
+    text-decoration: none;
+    color: #9BA4B5;
+}
+.sidebar nav li a:hover{
+    
+    text-decoration: none;
+    color: #F1F6F9;
+}
+
+.sidebarGo{
+    transform: translate(-443px,0px);
+    position: absolute;
+    /* background-color: #A0AECD; */
+    /* width: 100vw; */
+    
+}
+
+.hamburger{
+    position: fixed;
+    cursor: pointer;
+    /* top: 130px; */
+    left: 10px;
+}
+
+.ham{
+    position: absolute;
+    /* padding-top: 5.5rem; */
+    margin-left: 0.2rem;
+    /* top:25px; */
+    width: 1.7rem;
+   
+}
+
+.cross{
+    position:absolute;
+    margin-left: 5rem;
+    /* top:25px; */
+    /* margin-top: 5.5rem; */
+    width: 1.6rem;
+}
+
+/* .container{
+    background: #3cb074;
+    height: 58vh;
+    width: 70vw;
+    padding: 2rem 0 0 3rem;
+    /* padding-top: 85px; */
+    /* padding-left: 95px; */
+    /* margin: 100px 225px; */
+    /* display:contents; */
+    /* size: 5rem; */
+    /* position: relative; */
+/* } */ 
+/* .img{
+    height: 58vh;
+    width: 70vw;
+    padding: 1rem 0 0 1rem;
+    /* padding-top: 85px; */
+    /* padding-left: 95px; */
+    /* margin: 100px 225px; */
+    /* display:flexbox; */
+    /* size: 5rem; */
+    /* position: relative; */
+/* } */ 
+.infocontainer{
+    /* background: #3cb074; */
+    height: 58vh;
+    width: 70vw;
+    /* padding: 2rem 0 0 3rem; */
+    /* padding-top: 85px; */
+    /* padding-left: 95px; */
+    /* margin: 100px 225px; */
+    display:contents;
+    /* size: 5rem; */
+    position: relative;
+    margin-left:200px;
+    /* justify-content: space-around; */
+}
+.devInfo{
+    display:flex;
+    /* justify-self:auto; */
+    /* position: fixed; */
+    flex-direction: column;
+    justify-content: center;
+}
+#bulogo{
+    height: 9rem;
+    width: 13rem;
+}
+#lrlogo
+{
+    height: 9rem;
+    width: 14rem;
+}
+#tologo
+{
+    height: 9.6rem;
+    width: 15rem;
+}
+#merlogo{
+    height: 9rem;
+    width: 13rem;
+}
+#nissanlogo{
+    height: 9rem;
+    width: 12rem;
+}
+
+.img:hover{
+    opacity: 70%;
+    
+}
+
+.bmwpage{
+    
+    text-align: center;
+    
+    /* width: 10rem;
+    height: 10rem; */
+}
+#bmwpic{
+    /* margin-top: 12rem;
+     */
+     top
+}
